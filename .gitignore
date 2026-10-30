@@ -23,7 +23,6 @@
 *.z04
 
 # Model weights and large package/archive files
-**/runs/**/weights/
 *.pt
 *.pth
 *.onnx
@@ -52,3 +51,9 @@
 **/.drive_check.html
 **/.tasks_*.py
 **/.upstream_tasks*.py
+
+# Selected APConv checkpoints kept for private Mac/PC synchronization
+!APConv_Finaldata_复现/runs/smoke_test_scratch/weights/best.pt
+!APConv_Finaldata_复现/runs/smoke_test_scratch/weights/last.pt
+!APConv_Finaldata_复现/runs/server_scratch_200ep_batch40/weights/best.pt
+!APConv_Finaldata_复现/runs/server_scratch_200ep_batch40/weights/last.pt
