@@ -14,7 +14,7 @@ Located in [`YOLO_GN_复现/`](YOLO_GN_复现/). This project contains the YOLO-
 
 ## Data and large files
 
-Datasets, virtual environments, model checkpoints, local server bundles, and large archives are intentionally kept outside Git. Download or prepare the datasets separately, then update the local dataset paths in the YAML configuration files before training. Small result tables, plots, example images used in presentations, PDFs, and slides are included.
+Datasets, virtual environments, model checkpoints, local server bundles, and large archives are intentionally kept outside Git. On a Mac, clone this private repository, transfer the datasets from your authorized remote server over SSH or SFTP, then update the local dataset paths in the YAML configuration files before training. Dataset directories are ignored by Git, so transferred data stays local. Small result tables, plots, example images used in presentations, PDFs, and slides are included.
 
 ## Citation and upstream code
 
