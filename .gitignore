@@ -9,7 +9,6 @@
 
 # Nested repositories and generated presentation builds
 **/.git/
-**/author_repo/
 **/presentation/.build/
 **/pptx-python/
 
