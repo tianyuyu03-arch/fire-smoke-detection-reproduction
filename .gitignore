@@ -1,0 +1,55 @@
+# Python environments, bytecode, and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.cache/
+
+# Nested repositories and generated presentation builds
+**/.git/
+**/author_repo/
+**/presentation/.build/
+**/pptx-python/
+
+# Local datasets and dataset archives (data stays on the local machine)
+**/dataset/
+**/dataset_archive/
+**/dataset_source/
+**/datasets_local/
+*.z01
+*.z02
+*.z03
+*.z04
+
+# Model weights and large package/archive files
+**/runs/**/weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.whl
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Local logs, runtime state, and generated build outputs
+**/*.log
+**/*.pid
+**/presentation/*.aux
+**/presentation/*.nav
+**/presentation/*.out
+**/presentation/*.snm
+**/presentation/*.toc
+**/presentation/*.fls
+**/presentation/*.fdb_latexmk
+
+# Local server-specific dataset configuration
+**/data_server.yaml
+**/.drive_check.html
+**/.tasks_*.py
+**/.upstream_tasks*.py

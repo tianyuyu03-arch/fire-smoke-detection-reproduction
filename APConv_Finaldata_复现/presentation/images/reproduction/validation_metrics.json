@@ -1,0 +1,11 @@
+﻿{
+  "model": "runs/server_scratch_200ep_batch40/weights/best.pt",
+  "initialization": "from scratch (pretrained=false)",
+  "training": {"epochs": 200, "batch": 40, "seed": 0, "training_gpu": "RTX 5090 physical GPU 3"},
+  "evaluation": {"split": "author valid split", "images": 2641, "boxes": 4464, "background_images": 1001, "imgsz": 640, "batch": 4, "device": "local RTX 4060 Laptop GPU", "precision": 0.744592542839155, "recall": 0.6449417899076009, "map50": 0.7187629749249891, "map50_95": 0.42792858602202066, "preprocess_ms_per_image": 0.2, "inference_ms_per_image": 18.2, "postprocess_ms_per_image": 1.4},
+  "per_class": {
+    "fire": {"precision": 0.704, "recall": 0.647, "map50": 0.688, "map50_95": 0.379},
+    "smoke": {"precision": 0.785, "recall": 0.643, "map50": 0.750, "map50_95": 0.477}
+  },
+  "note": "Validation metrics are not an independent test-set result. Inference speed is for local RTX 4060 Laptop GPU, batch 4, and is not comparable to the paper's FPS measurement."
+}

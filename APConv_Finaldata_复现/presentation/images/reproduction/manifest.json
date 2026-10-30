@@ -1,0 +1,133 @@
+[
+  {
+    "file": "case_01_fire.jpg",
+    "image": "03f39846-cbf5-4249-b448-5f87ee22d2a0.jpg",
+    "group": "fire",
+    "gt_count": 5,
+    "pred_count": 5,
+    "matched": 5,
+    "missed": 0,
+    "unmatched_pred": 0,
+    "matches": [
+      {
+        "class": "Fire",
+        "iou": 0.912,
+        "confidence": 0.439
+      },
+      {
+        "class": "Fire",
+        "iou": 0.819,
+        "confidence": 0.429
+      },
+      {
+        "class": "Fire",
+        "iou": 0.816,
+        "confidence": 0.319
+      },
+      {
+        "class": "Fire",
+        "iou": 0.691,
+        "confidence": 0.45
+      },
+      {
+        "class": "Fire",
+        "iou": 0.639,
+        "confidence": 0.274
+      }
+    ]
+  },
+  {
+    "file": "case_02_fire.jpg",
+    "image": "WEB10978.jpg",
+    "group": "fire",
+    "gt_count": 2,
+    "pred_count": 2,
+    "matched": 0,
+    "missed": 2,
+    "unmatched_pred": 2,
+    "matches": []
+  },
+  {
+    "file": "case_03_smoke.jpg",
+    "image": "WEB11269.jpg",
+    "group": "smoke",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 1,
+    "missed": 0,
+    "unmatched_pred": 0,
+    "matches": [
+      {
+        "class": "Smoke",
+        "iou": 0.61,
+        "confidence": 0.262
+      }
+    ]
+  },
+  {
+    "file": "case_04_smoke.jpg",
+    "image": "WEB11670.jpg",
+    "group": "smoke",
+    "gt_count": 2,
+    "pred_count": 1,
+    "matched": 0,
+    "missed": 2,
+    "unmatched_pred": 1,
+    "matches": []
+  },
+  {
+    "file": "case_05_mixed.jpg",
+    "image": "WEB11699.jpg",
+    "group": "mixed",
+    "gt_count": 2,
+    "pred_count": 2,
+    "matched": 2,
+    "missed": 0,
+    "unmatched_pred": 0,
+    "matches": [
+      {
+        "class": "Smoke",
+        "iou": 0.802,
+        "confidence": 0.721
+      },
+      {
+        "class": "Fire",
+        "iou": 0.616,
+        "confidence": 0.5
+      }
+    ]
+  },
+  {
+    "file": "case_06_mixed.jpg",
+    "image": "WEB10429.jpg",
+    "group": "mixed",
+    "gt_count": 2,
+    "pred_count": 1,
+    "matched": 0,
+    "missed": 2,
+    "unmatched_pred": 1,
+    "matches": []
+  },
+  {
+    "file": "case_07_background.jpg",
+    "image": "WEB09461.jpg",
+    "group": "background",
+    "gt_count": 0,
+    "pred_count": 0,
+    "matched": 0,
+    "missed": 0,
+    "unmatched_pred": 0,
+    "matches": []
+  },
+  {
+    "file": "case_08_background.jpg",
+    "image": "WEB09747.jpg",
+    "group": "background",
+    "gt_count": 0,
+    "pred_count": 1,
+    "matched": 0,
+    "missed": 0,
+    "unmatched_pred": 1,
+    "matches": []
+  }
+]

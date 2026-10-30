@@ -1,0 +1,136 @@
+[
+  {
+    "file": "case_01_smoke.jpg",
+    "image": "WEBSmoke4144_jpg.rf.efb9c1666abd4c3161c6e7c7d4631e78.jpg",
+    "group": "smoke",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 1,
+    "missed": 0,
+    "false_positive": 0,
+    "matches": [
+      {
+        "class": "Smoke",
+        "iou": 0.949,
+        "confidence": 0.921
+      }
+    ]
+  },
+  {
+    "file": "case_02_smoke.jpg",
+    "image": "NoiseWEBSmoke609_jpg.rf.e50da4b76e724290fb6bf631f5888b7c.jpg",
+    "group": "smoke",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 0,
+    "missed": 1,
+    "false_positive": 1,
+    "matches": []
+  },
+  {
+    "file": "case_03_smoke.jpg",
+    "image": "WEBSmoke041_jpg.rf.e1fe541381bc4f4a501601293f8da642.jpg",
+    "group": "smoke",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 1,
+    "missed": 0,
+    "false_positive": 0,
+    "matches": [
+      {
+        "class": "Smoke",
+        "iou": 0.936,
+        "confidence": 0.944
+      }
+    ]
+  },
+  {
+    "file": "case_04_fire.jpg",
+    "image": "MirrorWEBFire1719_jpg.rf.3389d2978ac72b022e430d8ea8be45f5.jpg",
+    "group": "fire",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 1,
+    "missed": 0,
+    "false_positive": 0,
+    "matches": [
+      {
+        "class": "Fire",
+        "iou": 0.961,
+        "confidence": 0.911
+      }
+    ]
+  },
+  {
+    "file": "case_05_fire.jpg",
+    "image": "MirrorWEBFire1621_jpg.rf.7c886e9252eb32641550f88b69e04d15.jpg",
+    "group": "fire",
+    "gt_count": 5,
+    "pred_count": 1,
+    "matched": 0,
+    "missed": 5,
+    "false_positive": 1,
+    "matches": []
+  },
+  {
+    "file": "case_06_fire.jpg",
+    "image": "NoiseWEBFire1044_jpg.rf.cf980900b9af29ba6677b284cd8ed444.jpg",
+    "group": "fire",
+    "gt_count": 1,
+    "pred_count": 1,
+    "matched": 1,
+    "missed": 0,
+    "false_positive": 0,
+    "matches": [
+      {
+        "class": "Fire",
+        "iou": 0.943,
+        "confidence": 0.848
+      }
+    ]
+  },
+  {
+    "file": "case_07_mixed.jpg",
+    "image": "MirrorWEBFire1674_jpg.rf.d5785852b67360012fcecfb92f44ff77.jpg",
+    "group": "mixed",
+    "gt_count": 3,
+    "pred_count": 3,
+    "matched": 3,
+    "missed": 0,
+    "false_positive": 0,
+    "matches": [
+      {
+        "class": "Fire",
+        "iou": 0.902,
+        "confidence": 0.852
+      },
+      {
+        "class": "Smoke",
+        "iou": 0.888,
+        "confidence": 0.81
+      },
+      {
+        "class": "Fire",
+        "iou": 0.867,
+        "confidence": 0.714
+      }
+    ]
+  },
+  {
+    "file": "case_08_mixed.jpg",
+    "image": "NoiseWEBFire1429_jpg.rf.216d9cd26a93d1f7ebb59eb4fee332c8.jpg",
+    "group": "mixed",
+    "gt_count": 7,
+    "pred_count": 4,
+    "matched": 1,
+    "missed": 6,
+    "false_positive": 3,
+    "matches": [
+      {
+        "class": "Smoke",
+        "iou": 0.946,
+        "confidence": 0.649
+      }
+    ]
+  }
+]
